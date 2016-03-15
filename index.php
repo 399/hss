@@ -27,6 +27,27 @@
 	</div>
 <!--头部导航END-->
 <!--幻灯片-->
+	<div class="fullSlide">
+		<div class="bd">
+			<ul>
+				<li><a target="_blank" href="#">
+				<img src="<?php bloginfo('template_directory'); ?>/img/test/1.jpg"/></a></li>
+				<li><a target="_blank" href="#">
+				<img src="<?php bloginfo('template_directory'); ?>/img/test/2.jpg"/></a></li>
+				<li><a target="_blank" href="#">
+				<img src="<?php bloginfo('template_directory'); ?>/img/test/3.jpg"/></a></li>
+				<li><a target="_blank" href="#">
+				<img src="<?php bloginfo('template_directory'); ?>/img/test/4.jpg"/></a></li>
+			</ul>
+		</div>
+		<div class="hd"><ul></ul></div>
+		<a class="prev" href="javascript:void(0)"><i class="iconfont hd_i">&#xe611;</i></a>
+		<a class="next" href="javascript:void(0)"><i class="iconfont hd_i">&#xe606;</i></a>
+	</div>
+	<script type="text/javascript">
+		jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"leftLoop", vis:"auto", autoPlay:true, autoPage:true,});
+		jQuery(".slideTxtBox").slide({effect:"left",easing:"easeInQuint",delayTime:100});
+	</script>
 <!--幻灯片END-->
 </body>
 </html>
