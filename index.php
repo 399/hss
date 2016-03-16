@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css" type="text/css">
 </head>
 <body>
-<!--头部导航-->
+<!--头部导航---->
 	<div class="header">
 		<div class="container">
 			<div class="logo"><a href="#">Hanns Seidel Stiftung</a></div>
