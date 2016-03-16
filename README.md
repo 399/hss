@@ -1,2 +1,0 @@
-# hss
-Hanns Seidel Stiftung
